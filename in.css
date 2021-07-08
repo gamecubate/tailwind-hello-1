@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-title {
+    @apply font-bold text-5xl text-red-500;
+  }
+}
